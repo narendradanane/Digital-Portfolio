@@ -424,7 +424,13 @@ a:focus {
     }
 }
 
-
+.hero-image img {
+    margin-top: 170px; /* Adjust this value to move the image further down */
+    width: 570px; /* Set a fixed width */
+    height: auto; /* Maintain aspect ratio */
+    /* Or set a fixed height: */
+    /* height: 400px; */
+}
 /*******************************/
 /******* Section Header ********/
 /*******************************/
