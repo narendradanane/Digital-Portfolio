@@ -1508,16 +1508,17 @@ ul {
 .testimonial .testimonial-text {
     position: relative;
     margin-top: -70px;
-    padding: 65px 35px 30px 35px;
+    padding: 65px 35px 15px;   /* ↓ fixes yellow blank area */
     text-align: center;
     background: #ffffff;
     color: black;
-    border-radius: 500px;
+    border-radius: 120px;     /* flexible shape */
 }
 
 .testimonial .testimonial-item p {
     font-size: 18px;
     font-style: italic;
+    margin-bottom: 15px;   /* pulls text down */
 }
 
 .testimonial .testimonial-text h3 {
