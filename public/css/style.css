@@ -1508,11 +1508,11 @@ ul {
 .testimonial .testimonial-text {
     position: relative;
     margin-top: -70px;
-    padding: 65px 35px 15px;   /* ↓ fixes yellow blank area */
+    padding: 65px 35px 30px 35px;   /* ↓ fixes yellow blank area */
     text-align: center;
     background: #ffffff;
     color: black;
-    border-radius: 120px;     /* flexible shape */
+    border-radius: 500px;     /* flexible shape */
 }
 
 .testimonial .testimonial-item p {
