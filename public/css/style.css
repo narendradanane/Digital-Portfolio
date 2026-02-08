@@ -1421,42 +1421,45 @@ ul {
 
 .interests {
     position: relative;
-    padding: 45px 0 15px 0;
-    padding-bottom: 20px;
+    padding: 45px 15px 20px 15px;
     margin-bottom: 20px;
 }
-  .skills .progress-interest {
-    padding-top: 10px;
-    padding-left: 40px;
-    height: 60px;
-    display: block;
+
+/* Interest item container */
+.skills .progress-interest {
+    padding: 10px 0;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
     background: none;
     border-radius: 0;
-    font-size: 1rem;
+    font-size: 1em;
     color: rgb(64, 4, 4);
-  }
+}
 
-  @font-face {
-    font-family: "bootstrap-icons";
-    src: url("./fonts/bootstrap-icons.woff2?856008caa5eb66df68595e734e59580d") format("woff2"),
-  url("./fonts/bootstrap-icons.woff?856008caa5eb66df68595e734e59580d") format("woff");
-  }
-  
-  [class^="bi-"]::before,
-  [class*=" bi-"]::before {
-    display: inline-block;
-    font-family: bootstrap-icons !important;
-    font-style: normal;
-    font-weight: normal !important;
-    font-variant: normal;
-    text-transform: none;
+/* Icon styling */
+.skills .progress-interest i {
+    font-size: 22px;
+    min-width: 28px;
+    text-align: center;
     line-height: 1;
-    vertical-align: -.125em;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+}
 
-  .bi-camera2::before { content: "\f221"; }
+/* Text styling */
+.skills .progress-interest .skill {
+    display: flex;
+    align-items: center;
+    line-height: 1.4;
+}
+
+/* Keep columns vertically balanced */
+.skills-content .col-lg-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 /*******************************/
 /******* Testimonial CSS *******/
